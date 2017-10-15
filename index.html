@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>True Solutions</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/master.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/controllers/career-controller.js"></script>
+  </head>
+  <body ng-app="TrueSolutions">
+    <div class="navbar-hidden-wrapper" id="hide-navbar">
+      <nav class="navbar-hidden-fixed">
+        <div class="navbar-left-container">
+          <a href="#!home" class="nav-item-logo"><img src="assets/images/ts-logo.png" alt="True Solutions Logo" class="ts-logo"></a>
+        </div>
+        <div class="navbar-right-container">
+          <a href="#!home" class="nav-item red-nav-item">Home</a>
+          <div class="ui simple dropdown nav-item red-nav-item">
+            Services
+            <div class="nav-item menu">
+              <a href="#!service1" class="item">Consulting</a>
+              <a href="#!service2" class="item">Web Development</a>
+              <a href="#!service3" class="item">AWS</a>
+              <a href="#!service4" class="item">Citrix</a>
+            </div>
+          </div>
+          <a href="#!careers" class="nav-item red-nav-item career-nav">Careers</a>
+          <a href="#!about" class="nav-item red-nav-item">About us</a>
+          <a href="#!contact" class="nav-item nav-button red-nav-item"><button type="button" name="button" class="ui large primary button">Contact us</button></a>
+        </div>
+      </nav>
+    </div>
+    <div class="navbar-wrapper">
+      <nav class="navbar">
+          <div class="navbar-left-container">
+            <a href="#!home" class="nav-item-logo"><img src="assets/images/ts-logo.png" alt="True Solutions Logo" class="ts-logo"></a>
+          </div>
+          <div class="navbar-right-container">
+            <a href="#!home" class="nav-item">Home</a>
+            <div class="ui simple dropdown nav-item">
+              Services
+              <div class="nav-item menu">
+                <a href="#!service1" class="item">Consulting</a>
+                <a href="#!service2" class="item">Web Development</a>
+                <a href="#!service3" class="item">AWS</a>
+                <a href="#!service4" class="item">Citrix</a>
+              </div>
+            </div>
+            <a href="#!careers" class="nav-item career-nav">Careers</a>
+            <a href="#!about" class="nav-item">About us</a>
+            <a href="#!contact" class="nav-item nav-button"><button type="button" name="button" class="ui large primary button">Contact us</button></a>
+          </div>
+      </nav>
+    </div>
+    <div class="mobile-wrapper">
+      <nav class="mobile">
+        <div class="mobile-left-container">
+          <a href="#!home" class="nav-item-logo"><img src="assets/images/ts-logo.png" alt="True Solutions Logo" class="ts-logo"></a>
+        </div>
+        <div class="mobile-right-container">
+          <div class="nav-item">
+            <a href="#" id="click-sidebar-icon"><i class="sidebar icon"></i></a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="middle-navbar-wrapper">
+      <nav class="middle-navbar">
+        <a href="#!home" class="mid-nav-item hide-item">Home</a>
+        <a href="#" class="mid-nav-item" id="services-nav-item">Services
+          <i class="caret right icon"></i><i class="caret down icon"></i></a>
+          <div class="accordian-nav mid-nav-item">
+            <a href="#!service1" class="acc-item hide-item">Consulting</a>
+            <a href="#!service2" class="acc-item hide-item">Web Development</a>
+            <a href="#!service3" class="acc-item hide-item">AWS</a>
+            <a href="#!service4" class="acc-item hide-item">Citrix</a>
+          </div>
+        <a href="#!careers" class="mid-nav-item hide-item career-nav">Careers</a>
+        <a href="#!about" class="mid-nav-item hide-item">About us</a>
+        <a href="#!contact" class="mid-nav-item hide-item">Contact us</a>
+      </nav>
+    </div>
+    <div>
+      <div ng-view></div>
+    </div>
+
+    <footer class="footer-container">
+      <div class="footer-content">
+        <div class="footer-left footer-column">
+          <h4>About</h4>
+          <a href="#" class="footer-item">About us</a>
+          <a href="#" class="footer-item">Contact us</a>
+        </div>
+        <div class="footer-middle footer-column">
+          <h4>Services</h4>
+          <a href="#" class="footer-item">Consulting</a>
+          <a href="#" class="footer-item">Web Development</a>
+          <a href="#" class="footer-item">Amazon Web Services</a>
+          <a href="#" class="footer-item">Citrix</a>
+        </div>
+        <div class="footer-right footer-column">
+          <h4>True Solutions LLC</h4>
+          <p>Copyright 2017 True Solutions LLC.</p>
+          <p>All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>

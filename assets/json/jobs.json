@@ -1,0 +1,57 @@
+{
+    "job1" : {
+        "name":"System engineer",
+        "description":"We are looking for systems engineers with 0-3 years of experience. An ideal candidate will be motivated to learn new technologies on the job and will be a hard working individual...",
+        "requirements":{
+          "key1":"Master's degree in Computer Science, Information Systems or equivalent experience (0-3 years’ experience administering and supporting corporate computing hardware and software assets).",
+          "key2":"Understanding of related information technology (e.g. desktop and server operating systems, virtualization, networking, VOIP, etc).",
+          "key3":"Experience managing data backup and system replication technologies.",
+          "key4":"Knowledge of Windows Server network roles and features and use of their various control panels, administration modules and shells",
+          "key5":"Strong communication skills and attention to detail",
+          "key6":"Has strong written and verbal communication skills and a strong working knowledge of Microsoft Office."
+        },
+        "qulaification":{
+          "key1":"Bachelors or Master’s Degree in Computer Science, Computer Engineering, Computer Information Systems, , Information Technology or related technical program.",
+          "key2":"Strong Communication and Technical skills.",
+          "key3":"Responsible, dependable, quick learner."
+        }
+      },
+      "job2" : {
+          "name":"Software engineer",
+          "description":"We are looking for software engineers with 0-3 years of experience. An ideal candidate will be motivated to learn new technologies on the job and will be a hard working individual...",
+          "requirements":{
+            "key1":"Create installation processes that are effective and efficient for end users.",
+            "key2":"Provide software installation expertise and overall software applications leadership and perspective to cross-organization projects, programs, and activities.",
+            "key3":"Support the localization infrastructure within the products, the localization process, and interface with the external localization resources.",
+            "key4":"Deliver high quality software that is scalable, high-performing, and robust.",
+            "key5":"Write thorough tests for all software that is developed.",
+            "key6":"Decompose work into tasks that can be completed in days rather than weeks or months as a part of Scrum’s framework."
+          },
+          "qulaification":{
+            "key1":"Bachelors or Master’s Degree in Computer Science, Computer Engineering, Computer Information Systems, , Information Technology or related technical program.",
+            "key2":"Strong Communication and Technical skills.",
+            "key3":"Responsible, dependable, quick learner.",
+            "key4":"Demonstrated ability to adapt to new technology.",
+            "key5":"Preferred willingness to relocate nationwide in the US for projects."
+          }
+        },
+        "job3" : {
+            "name":"civil engineer",
+            "description":"We are looking for software engineers with 0-3 years of experience. An ideal candidate will be motivated to learn new technologies on the job and will be a hard working individual...",
+            "requirements":{
+              "key1":"Create installation processes that are effective and efficient for end users.",
+              "key2":"Provide software installation expertise and overall software applications leadership and perspective to cross-organization projects, programs, and activities.",
+              "key3":"Support the localization infrastructure within the products, the localization process, and interface with the external localization resources.",
+              "key4":"Deliver high quality software that is scalable, high-performing, and robust.",
+              "key5":"Write thorough tests for all software that is developed.",
+              "key6":"Decompose work into tasks that can be completed in days rather than weeks or months as a part of Scrum’s framework."
+            },
+            "qulaification":{
+              "key1":"Bachelors or Master’s Degree in Computer Science, Computer Engineering, Computer Information Systems, , Information Technology or related technical program.",
+              "key2":"Strong Communication and Technical skills.",
+              "key3":"Responsible, dependable, quick learner.",
+              "key4":"Demonstrated ability to adapt to new technology.",
+              "key5":"Preferred willingness to relocate nationwide in the US for projects."
+            }
+          }
+  }

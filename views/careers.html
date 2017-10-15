@@ -1,0 +1,40 @@
+<main class="main-container" ng-controller="CareerController">
+  <section class="jumbo-segment">
+    <div class="jumbo-segment-background-image careers">
+    </div>
+    <div class="jumbo-segment-content careers-content">
+      <h1>CAREERS</h1>
+      <h3>If you are fresh out of school or are looking to work in a highly motivating and learning environment, this is the right
+      place for you.</h3>
+    </div>
+  </section>
+  <section class="career-middle-content">
+    <div class="middle1 middle-div">
+      <h3>What we do</h3>
+      <p>We work with systems engineers, computer science engineers and web developers to train them in specific technological areas in order to make them experts in
+        their respective fields. The engineers get to work on exciting hands-on real projects in order to learn the ins and outs of the challengesthey might face in
+        different scenarios while working with our clients. They work in teams as well as on individual projects which further helps them develop great work environment
+        etiquette. Other than that, we also work hard to develop products and services in the mentioned fields for our clients both domestic and abroad.</p>
+      <p>Please take a look at the jobs posted below for more information on any open positions that you might be interested in.</p>
+    </div>
+    <div class="middle2 middle-div" >
+      <div class="job" ng-repeat="data in jobsData">
+        <h3>{{data.name}}</h3>
+        <p>{{data.description}}<p>
+          <button type="button" name="button" class="ui huge primary button jobButton" ng-click="loadDescription(data)" id="job1Id">Read More</button>
+          </div>
+    </div>
+    <div class="middle3 middle-div job-description" ng-if="!hideDescription" id="job-content">
+      <h3>{{currentJobDescription.name}}</h3>
+      <h4>Requirements</h4>
+      <ul class="requirements-list">
+        <li ng-repeat="(key,val) in currentJobDescription.requirements">{{val}}</li>
+      </ul>
+      <h4>Qualifications</h4>
+      <ul class="requirements-list">
+        <li ng-repeat="(key,val) in currentJobDescription.qualification">{{val}}</li>
+      </ul>
+        <a href="#!contact"><button type="button" name="button" class="ui huge primary button">Apply Now</button></a>
+    </div>
+  </section>
+</main>
