@@ -16,12 +16,7 @@ app.controller('CareerController',function CareerController($scope,$http,$window
     }else{
     $scope.hideDescription=false;
     $scope.currentJobDescription=val;
-    $timeout(function () {
-      $location.hash('job-content');
-      $anchorScroll.yOffset = 80;
-      //  $anchorScroll();
-      anchorSmoothScroll.scrollTo('job-content',70);
-    }, 100);
+    anchorSmoothScroll.scrollTo('job-content',70);
   }
 
   }
