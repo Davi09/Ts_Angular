@@ -84,9 +84,4 @@ $(document).ready(function(){
     $("div.accordian-nav").removeClass("show-flex");
   });
 
-  /*$('.career-nav').on('click', function(){
-    window.location.href='#!careers';
-    location.reload();
-  });*/
-
 });

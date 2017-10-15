@@ -1,0 +1,24 @@
+{
+  "name": "truesolutions",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "app.js",
+  "scripts": {
+    "dev":"webpack  --color  --watch --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davi09/Ts_Angular.git"
+  },
+  "author": "Davi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Davi09/Ts_Angular/issues"
+  },
+  "homepage": "https://github.com/Davi09/Ts_Angular#readme",
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^3.0.1",
+    "path": "^0.12.7",
+    "webpack": "^3.7.1"
+  }
+}

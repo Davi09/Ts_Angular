@@ -1,6 +1,6 @@
 <main class="main-container" ng-controller="CareerController">
   <section class="jumbo-segment">
-    <div class="jumbo-segment-background-image careers">
+    <div class="jumbo-segment-background-image careers" >
     </div>
     <div class="jumbo-segment-content careers-content">
       <h1>CAREERS</h1>
@@ -24,7 +24,9 @@
           <button type="button" name="button" class="ui huge primary button jobButton" ng-click="loadDescription(data)" id="job1Id">Read More</button>
           </div>
     </div>
-    <div class="middle3 middle-div job-description" ng-if="!hideDescription" id="job-content">
+    <div id="job-content" style="visibility:hidden">
+    </div>
+    <div class="middle3 middle-div job-description" ng-if="!hideDescription"  >
       <h3>{{currentJobDescription.name}}</h3>
       <h4>Requirements</h4>
       <ul class="requirements-list">

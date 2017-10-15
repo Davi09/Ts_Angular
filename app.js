@@ -3,22 +3,28 @@ var app = angular.module("TrueSolutions", ["ngRoute"]);
 app.config(function($routeProvider) {
   $routeProvider
   .when("/", {
-    templateUrl : "views/home.html"
+    templateUrl : "views/home.html",
+    controller:"HomeController"
   })
   .when("/home", {
-    templateUrl : "views/home.html"
+    templateUrl : "views/home.html",
+    controller:"HomeController"
   })
   .when("/about", {
-    templateUrl : "views/about.html"
+    templateUrl : "views/about.html",
+    controller:"AboutController"
   })
   .when("/careers", {
-    templateUrl : "views/careers.html"
+    templateUrl : "views/careers.html",
+    controller:"CareerController"
   })
   .when("/contact", {
-    templateUrl : "views/contact.html"
+    templateUrl : "views/contact.html",
+    controller:"ContactController"
   })
   .when("/services", {
-    templateUrl : "views/services.html"
+    templateUrl : "views/services.html",
+    controller:"ServicesController"
   })
   .when("/service1", {
     templateUrl : "views/services/service1.html"
